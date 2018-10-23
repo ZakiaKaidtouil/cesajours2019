@@ -1,0 +1,17 @@
+.zone{
+    border:2px solid black;
+    
+}
+div{
+height: 100px;
+width: 300px;
+display: inline;
+}
+span{
+    width: 300px;
+    height:100px ;
+
+}
+.jaune{
+    background: yellow
+}

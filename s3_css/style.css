@@ -1,0 +1,57 @@
+p{
+  background: gray;
+  border: 10px solid black; 
+  padding: 20px;
+  margin: 30px; 
+  line-height: 25px;
+}
+
+
+#mot-directeur{
+
+    background: black;
+    color: white;
+}
+.important{
+ color: red;
+ background:white;
+
+}
+.text-milieu{
+    text-align: center;
+}
+
+body{
+    background: greenyellow;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+   /* 
+    list-style-image: url('images/logocesa.png');
+ */
+}
+a:link{
+    background: black;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    background: red;
+    color: rgb(92, 93, 38);
+}
+a:visited{
+    background: violet
+}
+a:focus{
+    border: 2px solid green;
+}
+a:active{
+    background: white;
+    color: red
+}
+
+

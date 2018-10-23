@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu a{
+   
+    background: black;
+    color: white;
+    height: 40px;
+    /* display: inline-block;
+    line-height: 40px; */
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+#menu a:hover{
+    background: gray
+}
+#menu {
+    background: black;
+    height: 30px;
+    padding-top: 11px !important;
+}
