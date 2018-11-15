@@ -1,0 +1,16 @@
+.navbar {
+    background: deepskyblue;
+}
+.navbar-brand{
+    color: black;
+}
+.navbar-nav>li>a {
+    color: white;
+}
+ .btn-info{
+    background: darkolivegreen !;
+}
+.tof{
+    width: 400px;
+   
+}
