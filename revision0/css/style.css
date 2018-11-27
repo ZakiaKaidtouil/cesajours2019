@@ -1,0 +1,19 @@
+.full{
+    width: 100%;
+}
+.droite{
+    float: right;
+}
+.info{
+    color: rgb(14, 63, 80);
+    margin-top: 10px;
+}
+.produit{
+    background: rgb(243, 243, 238);
+    padding: 15px;
+    margin-bottom: 15px; 
+}
+.titre{
+    text-align: left;
+    font-size: 18px;
+}

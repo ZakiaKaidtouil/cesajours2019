@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.b{
+    border: 2px solid black;
+box-sizing: border-box;
+
+}
+#entete{
+width: 100%;
+height: 80px;
+position: fixed;
+top: 0;
+z-index: 3;
+}
+#principal{
+    width: 100%;
+    min-height: 600px;
+   
+    position: relative;
+    top: 91px;
+
+}
+#gauche{
+    
+    min-height: 600px;
+    float: left;
+}
+#droite{
+    float: right;
+  
+   
+}
+#logo{
+    
+    font-weight: bolder;
+    font-size: 2em;
+    float: left;
+    
+    margin-left: 11px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: 10px;
+    background: red;
+    border: none;
+}
+#logo p{
+    position: relative;
+    top: -11px;
+    left: -9px;
+}
+#logo::first-letter{
+    font-size: 2em;
+    color: blue;
+}
+#menudroite{
+   
+float: right;
+height: 60px;
+}
+footer{
+    background: black;
+    color: white;
+    height: 200px;
+   
+    width: 100%;
+    margin-top:100px; 
+}
+.separer{
+    clear: both;
+}
+.produit{
+    height: 300px;
+    background: #faf6f6;
+    border-color:rgb(175, 173, 173);
+    background: #faf6f6;
+   overflow: hidden;
+    
+
+}
+
+.tof img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+ 
+}
+.produit:hover img{
+transform: scale(1.2) rotate(1deg) translateY(2px) ;
+transition:1s;
+}
+.produit:hover .info{
+    position: relative;
+    color: red;
+    top: 2px;
+}
+.tof{
+padding-top: 15px;
+width: 100%;
+height: 80% ;
+}
+.info{
+height: 20%;
+text-align: center;
+
+}
+.label{
+    font-size: 1.2em;
+color: dodgerblue;
+margin-top: 10px;
+position: relative;
+top: 4px;
+}
+.prix{
+    color: deeppink;
+    font-size: 1.2em;
+    position: relative;
+    top: 4px;
+    
+}
+
+.se{
+display: none;}
+.produit:hover .se{
+  display: block;
+  
+}
+
+.produit:hover .pr{
+    display: none;
+}
+.promo{
+    background: red;
+    color: white;
+    width: 210px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 1.1em;
+    transform: rotate(35deg) translateX(49px) translateY(2px);
+}
+.new{
+  background: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: rotate(-29deg);
+    left: -90px;
+    top: 11px;
+    text-align: center;
+    padding-left: 15px;
+    z-index: 8;
+}

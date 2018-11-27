@@ -1,0 +1,9 @@
+<personnes>
+<personne id="1">
+ <nom>test</nom>
+</personne>
+
+<personne id="2">
+ <nom>test</nom>
+</personne>
+</personnes>
